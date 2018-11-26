@@ -83,15 +83,15 @@ public class AboutStrings {
     @Koan
     public void stringLowerCase() {
         String str = "I AM a number ONE!";
-        assertEquals(str.toLowerCase(), __);
+        assertEquals(str.toLowerCase(), "i am a number one!");
     }
 
     @Koan
     public void stringCompare() {
         String str = "I AM a number ONE!";
-        assertEquals(str.compareTo("I AM a number ONE!") == 0, __);
-        assertEquals(str.compareTo("I am a number one!") == 0, __);
-        assertEquals(str.compareTo("I AM A NUMBER ONE!") == 0, __);
+        assertEquals(str.compareTo("I AM a number ONE!") == 0, true);
+        assertEquals(str.compareTo("I am a number one!") == 0, false);
+        assertEquals(str.compareTo("I AM A NUMBER ONE!") == 0, false);
     }
 
     @Koan
