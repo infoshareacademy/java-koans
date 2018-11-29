@@ -129,7 +129,8 @@ public class AboutLoops {
             }
         }
         assertEquals(count, 2);
-    } //continue daje efekt ze else też się wykona? kiedy doda 1? Po sprawdzeniu if "Tiger"?
+    } //continue daje efekt ze petla wykona sie kolejny raz, doda 1 po sprawdzeniu Cat i po
+    // sprawdzeniu Tiger, count == 2
 
     @Koan
     public void forLoopContinueLabel() {
@@ -146,7 +147,7 @@ public class AboutLoops {
         }
         // What does continue with a label mean?
         // What gets executed? Where does the program flow continue?
-        assertEquals(count, __);
+        assertEquals(count, 8);
     }
 
     @Koan
@@ -164,6 +165,6 @@ public class AboutLoops {
         }
         // What does break with a label mean?
         // What gets executed? Where does the program flow continue?
-        assertEquals(count, __);
+        assertEquals(count, 3);
     }
 }
