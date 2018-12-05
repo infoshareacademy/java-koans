@@ -23,7 +23,7 @@ public class AboutStringsInSwitch {
                     notDangerous = animal;
             }
         }
-        assertEquals(notDangerous, "Dog Cat Elephant Zebra");
+        assertEquals(notDangerous, "Zebra");
         assertEquals(dangerous, "Tiger");
     }
 
