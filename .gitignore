@@ -10,7 +10,7 @@ koans/data*
 .project
 .settings
 .idea
-koans/app/data
+
 lib/file-compiler/bin
 **/file_hashes.dat
 .gradle
