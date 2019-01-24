@@ -45,8 +45,7 @@ public class AboutEquality {
         }
 
         public int hashCode() {
-
-            return java.util.Objects.hash(super.hashCode(), name, horsepower);
+            return java.util.Objects.hash(name, horsepower);
         }
     }
 
