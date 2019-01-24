@@ -12,20 +12,20 @@ public class AboutEquality {
     public void sameObject() {
         Object a = new Object();
         Object b = a;
-        assertEquals(a == b, __);
+        assertEquals(a == b, true);
     }
 
     @Koan
     public void equalObject() {
         Integer a = new Integer(1);
         Integer b = new Integer(1);
-        assertEquals(a.equals(b), __);
-        assertEquals(b.equals(a), __);
+        assertEquals(a.equals(b), true);
+        assertEquals(b.equals(a), true);
     }
 
     @Koan
     public void noObjectShouldBeEqualToNull() {
-        assertEquals(new Object().equals(null), __);
+        assertEquals(new Object().equals(null), false);
     }
 
     static class Car {
@@ -37,18 +37,16 @@ public class AboutEquality {
             horsepower = p;
         }
 
-        @Override
-        public boolean equals(Object other) {
-            // Change this implementation to match the equals contract
-            // Car objects with same horsepower and name values should be considered equal
-            // http://download.oracle.com/javase/6/docs/api/java/lang/Object.html#equals(java.lang.Object)
-            return false;
+        public boolean equals(Object object) {
+            if (this == object) return true;
+            if (!(object instanceof Car)) return false;
+            Car car = (Car) object;
+            return this.horsepower == car.horsepower && java.util.Objects.equals(this.name, car.name);
         }
 
-        @Override
         public int hashCode() {
-            // @see http://download.oracle.com/javase/6/docs/api/java/lang/Object.html#hashCode()
-            return super.hashCode();
+
+            return java.util.Objects.hash(super.hashCode(), name, horsepower);
         }
     }
 
