@@ -2,14 +2,14 @@
 <packages>
     <package pkg="beginner" name="Novice">
         <suite class="AboutKoans">
-        <koan name="findAboutKoansFile" displayIncompleteKoanException="false" />
-        <koan name="definitionOfKoanCompletion" displayIncompleteKoanException="false" />
+            <koan name="findAboutKoansFile" displayIncompleteKoanException="false"/>
+            <koan name="definitionOfKoanCompletion" displayIncompleteKoanException="false"/>
         </suite>
         <suite class="AboutAssertions"/>
         <suite class="AboutArithmeticOperators"/>
         <suite class="AboutStrings"/>
-        <suite class="AboutPrimitives" />
-        <suite class="AboutLoops" />
+        <suite class="AboutPrimitives"/>
+        <suite class="AboutLoops"/>
         <suite class="AboutConditionals"/>
         <suite class="AboutEquality"/>
         <!--<suite class="AboutObjects"/>-->
@@ -25,18 +25,18 @@
     </package>
     <package pkg="intermediate" name="Intermediate">
         <suite class="AboutAutoboxing"/>
-        <!--<suite class="AboutCollections"/>-->
-        <!--<suite class="AboutComparison"/>-->
-        <!--<suite class="AboutDates"/>-->
-        <!--<suite class="AboutEquality"/>-->
+        <suite class="AboutCollections"/>
+        <suite class="AboutComparison"/>
+        <suite class="AboutDates"/>
+        <suite class="AboutEquality"/>
         <!--<suite class="AboutFileIO"/>-->
         <!--<suite class="AboutInnerClasses"/>-->
-        <!--<suite class="AboutLocale"/>-->
+        <suite class="AboutLocale"/>
         <!--<suite class="AboutRegularExpressions"/>-->
         <!--<suite class="AboutSerialization"/>-->
     </package>
     <!--<package pkg="advanced" name="Advanced">-->
-        <!--<suite class="AboutMocks"/>-->
+    <!--<suite class="AboutMocks"/>-->
     <!--</package>-->
     <package pkg="java7" name="Java 7">
         <suite class="AboutJava7LiteralsEnhancements"/>
@@ -46,12 +46,12 @@
         <suite class="AboutRequireNotNull"/>
     </package>
     <!--<package pkg="java8" name="Java 8">-->
-        <suite class="AboutDefaultMethods"/>
-        <suite class="AboutOptional"/>
-        <suite class="AboutLocalTime"/>
-        <suite class="AboutLambdas"/>
-        <suite class="AboutStreams"/>
-        <suite class="AboutMultipleInheritance"/>
-        <suite class="AboutBase64"/>
+    <!--<suite class="AboutDefaultMethods"/>-->
+    <!--<suite class="AboutOptional"/>-->
+    <!--<suite class="AboutLocalTime"/>-->
+    <!--<suite class="AboutLambdas"/>-->
+    <!--<suite class="AboutStreams"/>-->
+    <!--<suite class="AboutMultipleInheritance"/>-->
+    <!--<suite class="AboutBase64"/>-->
     <!--</package>-->
 </packages>
