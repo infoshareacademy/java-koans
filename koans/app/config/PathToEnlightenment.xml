@@ -16,7 +16,7 @@
         <!--<suite class="AboutInheritance"/>-->
         <!--<suite class="AboutCasting"/>-->
         <!--<suite class="AboutConstructors"/>-->
-        <!--<suite class="AboutEnums"/>-->
+        <suite class="AboutEnums"/>
         <suite class="AboutExceptions"/>
         <!--<suite class="AboutMethodPreference"/>-->
         <!--<suite class="AboutBitwiseOperators"/>-->
@@ -25,13 +25,13 @@
     </package>
     <package pkg="intermediate" name="Intermediate">
         <suite class="AboutAutoboxing"/>
-        <suite class="AboutCollections"/>
-        <suite class="AboutComparison"/>
-        <suite class="AboutDates"/>
-        <suite class="AboutEquality"/>
+        <!--<suite class="AboutCollections"/>-->
+        <!--<suite class="AboutComparison"/>-->
+        <!--<suite class="AboutDates"/>-->
+        <!--<suite class="AboutEquality"/>-->
         <!--<suite class="AboutFileIO"/>-->
         <!--<suite class="AboutInnerClasses"/>-->
-        <suite class="AboutLocale"/>
+        <!--<suite class="AboutLocale"/>-->
         <!--<suite class="AboutRegularExpressions"/>-->
         <!--<suite class="AboutSerialization"/>-->
     </package>
