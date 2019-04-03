@@ -47,13 +47,13 @@ public class AboutDates {
     @Koan
     public void usingDateFormatToFormatDate() {
         String formattedDate = DateFormat.getDateInstance().format(date);
-        assertEquals(formattedDate, "3 mar 1973");
+        assertEquals(formattedDate, "1973-03-03");
     }
 
     @Koan
     public void usingDateFormatToFormatDateShort() {
         String formattedDate = DateFormat.getDateInstance(DateFormat.SHORT).format(date);
-        assertEquals(formattedDate, "03.03.1973");
+        assertEquals(formattedDate, "03.03.73");
     }
 
     @Koan
