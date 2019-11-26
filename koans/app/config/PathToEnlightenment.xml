@@ -8,32 +8,32 @@
         <suite class="AboutAssertions"/>
         <suite class="AboutEquality"/>
         <suite class="AboutArithmeticOperators"/>
+        <!--        <suite class="AboutBitwiseOperators"/>-->
         <!--        <suite class="AboutPrimitives"/>-->
         <suite class="AboutConditionals"/>
+        <suite class="AboutLoops"/>
         <suite class="AboutCasting"/>
         <suite class="AboutStrings"/>
         <suite class="AboutVarArgs"/>
         <!--        <suite class="AboutEnums"/>-->
-        <!--        <suite class="AboutLoops"/>-->
 
         <!--        <suite class="AboutObjects"/>-->
         <!--        <suite class="AboutConstructors"/>-->
         <!--        <suite class="AboutInheritance"/>-->
         <!--        <suite class="AboutExceptions"/>-->
         <!--        <suite class="AboutMethodPreference"/>-->
-        <!--        <suite class="AboutBitwiseOperators"/>-->
         <!--        <suite class="AboutArrays"/>-->
     </package>
     <package pkg="intermediate" name="Intermediate">
         <suite class="AboutAutoboxing"/>
-        <suite class="AboutComparison"/>
-        <suite class="AboutEquality"/>
+        <!--        <suite class="AboutComparison"/>-->
+        <!--        <suite class="AboutEquality"/>-->
         <!--        <suite class="AboutCollections"/>-->
         <!--        <suite class="AboutDates"/>-->
         <!--        <suite class="AboutFileIO"/>-->
         <!--        <suite class="AboutInnerClasses"/>-->
         <!--        <suite class="AboutLocale"/>-->
-        <suite class="AboutRegularExpressions"/>
+        <!--        <suite class="AboutRegularExpressions"/>-->
         <!--        <suite class="AboutSerialization"/>-->
     </package>
     <!--
