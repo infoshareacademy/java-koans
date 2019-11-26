@@ -12,9 +12,9 @@
         <!--        <suite class="AboutPrimitives"/>-->
         <suite class="AboutConditionals"/>
         <suite class="AboutLoops"/>
-        <suite class="AboutCasting"/>
-        <suite class="AboutStrings"/>
-        <suite class="AboutVarArgs"/>
+        <!--        <suite class="AboutCasting"/>-->
+        <!--        <suite class="AboutStrings"/>-->
+        <!--        <suite class="AboutVarArgs"/>-->
         <!--        <suite class="AboutEnums"/>-->
 
         <!--        <suite class="AboutObjects"/>-->
@@ -25,7 +25,7 @@
         <!--        <suite class="AboutArrays"/>-->
     </package>
     <package pkg="intermediate" name="Intermediate">
-        <suite class="AboutAutoboxing"/>
+        <!--        <suite class="AboutAutoboxing"/>-->
         <!--        <suite class="AboutComparison"/>-->
         <!--        <suite class="AboutEquality"/>-->
         <!--        <suite class="AboutCollections"/>-->
